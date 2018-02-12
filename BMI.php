@@ -36,7 +36,6 @@ $heightErr ="";
 $weightErr = "";
 $a="";
 if($_SERVER['REQUEST_METHOD']=="POST"){
-echo "<br>";
 if (empty($_POST["height"])) {
     $heightErr = "height is required";
     echo $heightErr;
