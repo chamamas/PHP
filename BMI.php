@@ -11,7 +11,7 @@
 <body>
 <center>
   <br><br>
-  <select onchange="window.location=this.value"  class="dropbtn">
+  <select onchange="window.location=this.value"  class="myButton">
     <option >select the menu</option>
     <option id="BMI_fun" value="BMI.php">Body Mass Index (BMI)</option>
     <option id="BMR_fun" value="BMR.php">Basal Metabolic Rate (BMR)</option>
