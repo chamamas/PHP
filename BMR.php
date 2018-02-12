@@ -47,6 +47,7 @@
 </center>
 <center>
 <p>
+<div class="textAbout">
 <?php
 if($_SERVER['REQUEST_METHOD']=="POST"){
 echo "<br>";
@@ -60,6 +61,7 @@ if ($_POST['gender']=='female') {
   echo "BMR (Basal Metabolic Rate) พลังงานที่จำเป็นพื้นฐานในการมีชีวิตของผู้หญิง : " .$a * $_POST["exercise"];
 }
 }?>
+ </div>
 </p>
 </div>
 </center>
