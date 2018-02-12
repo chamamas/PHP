@@ -42,7 +42,7 @@ if ($a<200) {
   echo "ผลการตรวจ : " .$grade[0];
 }
 else if (($a>=200) && ($a<240))  {
-  echo <div class="textAbout">"ผลการตรวจ : " .$grade[1]</div>;
+  echo "ผลการตรวจ : " .$grade[1];
 }
 else if ($a>=240)  {
   echo "ผลการตรวจ : " .$grade[2];
