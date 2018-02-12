@@ -30,6 +30,14 @@ p {
     border: none;
     cursor: pointer;
 }
+div {
+    background-color: lightgrey;
+    width: 600px;
+    border: 25px Violet ;
+    padding: 25px;
+    margin: 25px;
+    border-style: ridge;
+}
 
 .myButton:hover, .myButton:focus {
     background-color: LightPink ;
