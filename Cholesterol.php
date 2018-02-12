@@ -33,6 +33,7 @@
 </center>
 <center>
 <p>
+<div class="textAbout">
 <?php
 if($_SERVER['REQUEST_METHOD']=="POST"){
 echo "<br>";
@@ -48,6 +49,7 @@ else if ($a>=240)  {
   echo "ผลการตรวจ : " .$grade[2];
 }
 }?>
+</div>
 </p>
 </div>
 </center>
