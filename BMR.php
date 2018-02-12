@@ -33,7 +33,7 @@
 <input type="radio" name="gender"  value="male">Male
 </p>
 <br><br>
-<select name="exercise" class="dropbtn">
+<select name="exercise" class="myButton">
     <option value="1.2">ไม่ออกกำลังกายหรือออกกำลังกายน้อยมาก</option>
     <option value="1.375">ออกกำลังกายน้อยเล่นกีฬา 1-3 วัน/สัปดาห์</option>
     <option value="1.55">ออกกำลังกายปานกลางเล่นกีฬา 3-5 วัน/สัปดาห์</option>
