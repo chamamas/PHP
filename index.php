@@ -12,6 +12,7 @@
 <body>
 <br><br>
 <center>
+<div class="textAbout">
 <select onchange="window.location=this.value"  class="myButton">
     <option >select the menu</option>
     <option id="BMI_fun" value="BMI.php">Body Mass Index (BMI)</option>
@@ -19,5 +20,6 @@
     <option id="Cholesterol_fun" value="Cholesterol.php">Cholesterol</option>
 </select>
 <p>
+</div>
 </body>
 </html>
