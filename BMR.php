@@ -17,6 +17,7 @@
     <option id="BMR_fun" value="BMR.php">Basal Metabolic Rate (BMR)</option>
     <option id="Cholesterol_fun" value="Cholesterol.php">Cholesterol</option>
   </select>
+<div>
 <form action="<?php echo $_SERVER['PHP_SELF']; ?>"  method="POST">
 <p>ความสูง:</p>
 <input type="text" name='height'>
@@ -60,6 +61,7 @@ if ($_POST['gender']=='female') {
 }
 }?>
 </p>
+</div>
 </center>
 <body>
 <html>
