@@ -30,6 +30,7 @@
 </center>
 <center>
 <p>
+<div class="textAbout">
 <?php
 $heightErr ="";
 $weightErr = "";
@@ -50,6 +51,7 @@ else {
   echo "ดัชนีมวลกายของคุณ : " .$a;
 }
 }?>
+</div>
 </p>
 </div>
 </center>
