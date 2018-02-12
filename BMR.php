@@ -50,7 +50,6 @@
 <div class="textAbout">
 <?php
 if($_SERVER['REQUEST_METHOD']=="POST"){
-echo "<br>";
 $package = $_POST['exercise'];
 if ($_POST['gender']=='male') {
   $a = 66 + (13.7*$_POST['weight'])+(5*$_POST['height'])-(6.8*$_POST['age']);
