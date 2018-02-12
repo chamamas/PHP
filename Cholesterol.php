@@ -11,12 +11,15 @@
 <body>
 <center>
   <br><br>
-  <select onchange="window.location=this.value"  class="myButton">
+ <div class="textAbout">
+ <select onchange="window.location=this.value"  class="myButton">
     <option >select the menu</option>
     <option id="BMI_fun" value="BMI.php">Body Mass Index (BMI)</option>
     <option id="BMR_fun" value="BMR.php">Basal Metabolic Rate (BMR)</option>
     <option id="Cholesterol_fun" value="Cholesterol.php">Cholesterol</option>
-  </select>
+ </select>
+</div>
+
 <div>
 <form action="<?php echo $_SERVER['PHP_SELF']; ?>"  method="POST">
   <p>ไขมันแอลดีแอล:</p>
