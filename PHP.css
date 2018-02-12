@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css?family=Kanit');
+body{
+  background-color: MistyRose;
+}
+.header {
+    padding: 10px 10px 10px 10px;
+    background-color: Magenta ;
+    font-size: 20px ;
+}
+.header a {
+    color:white;
+}
+h1 {
+    font-family: 'Berkshire Swash', cursive;
+    color:white;
+    text-align: center;
+}
+p {
+  font-family: 'Kanit', sans-serif;
+  color:red ;
+  font-size: 20px ;
+
+}
+.myButton {
+    background-color: Plum;
+    color: white;
+    width: 500px;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.myButton:hover, .myButton:focus {
+    background-color: LightPink ;
+}
+input[type=submit] {
+    width: 200px;
+    font-size: 20px;
+    background-color: HotPink;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;}
