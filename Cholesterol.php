@@ -36,7 +36,6 @@
 <div class="textAbout">
 <?php
 if($_SERVER['REQUEST_METHOD']=="POST"){
-echo "<br>";
 $grade = array("ดีมาก","ค่อนข้างสูง","สูง");
 $a = $_POST['ldl_cholesterol'] + $_POST['hdl_cholesterol'] + ($_POST['triglycerides']/5);
 if ($a<200) {
