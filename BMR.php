@@ -19,14 +19,14 @@
   </select>
 <div>
 <form action="<?php echo $_SERVER['PHP_SELF']; ?>"  method="POST">
-<p>ความสูง:</p>
+<p>ความสูง/เซนติเมตร :</p>
 <input type="text" name='height'>
 <br><br>
-<p>นํ้าหนัก:</p>
+<p>นํ้าหนัก/กิโลกรัม :</p>
 <input type="text" name='weight'>
 <br><br>
 <p>อายุ:</p>
-<input type="text" name='age'>
+<input type="text" name='age'><p> ปี</p>
 <br><br>
 <p>เพศ:</p>
 <p>
