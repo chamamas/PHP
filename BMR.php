@@ -25,10 +25,10 @@
 <p>นํ้าหนัก/กิโลกรัม :</p>
 <input type="text" name='weight'>
 <br><br>
-<p>อายุ:</p>
-<input type="text" name='age'><p> ปี</p>
+<p>อายุ/ปี :</p>
+<input type="text" name='age'>
 <br><br>
-<p>เพศ:</p>
+<p>เพศ :</p>
 <p>
 <input type="radio" name="gender"  value="female">Female
 <input type="radio" name="gender"  value="male">Male
