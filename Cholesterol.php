@@ -17,6 +17,7 @@
     <option id="BMR_fun" value="BMR.php">Basal Metabolic Rate (BMR)</option>
     <option id="Cholesterol_fun" value="Cholesterol.php">Cholesterol</option>
   </select>
+<div>
 <form action="<?php echo $_SERVER['PHP_SELF']; ?>"  method="POST">
   <p>ไขมันแอลดีแอล:</p>
   <input type="text" name='ldl_cholesterol'>
@@ -48,6 +49,7 @@ else if ($a>=240)  {
 }
 }?>
 </p>
+</div>
 </center>
 </body>
 </html>
