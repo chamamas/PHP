@@ -19,10 +19,10 @@
   </select>
 <div>
 <form action="<?php echo $_SERVER['PHP_SELF']; ?>"  method="POST">
-<p>ความสูง:</p>
+<p>ความสูง/เซนติเมตร :</p>
 <input type="text" name='height'>
 <br><br>
-<p>นํ้าหนัก:</p>
+<p>นํ้าหนัก/กิโลกรัม :</p>
 <input type="text" name='weight'>
 <br><br>
 <input type="submit">
